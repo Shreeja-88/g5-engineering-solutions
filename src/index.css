@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Manrope", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  --color-ivory: #F5F3EE;
+  --color-beige: #E5E1D8;
+  --color-charcoal: #222522;
+  --color-muted-grey: #77766F;
+  --color-forest: #345B4B;
+  --color-forest-light: #44735F;
+  --color-forest-dark: #274539;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: #F5F3EE;
+  color: #222522;
+}
+
+::selection {
+  background-color: #345B4B;
+  color: #FFFFFF;
+}
+
+/* Editorial line and grid accents */
+.editorial-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(119, 118, 111, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(119, 118, 111, 0.07) 1px, transparent 1px);
+}
+
+.editorial-grid-dark {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}
+
+/* Monospace label styling */
+.tech-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #77766F;
+}
+
+/* Fine hairline borders */
+.hairline-border {
+  border-color: rgba(119, 118, 111, 0.2);
+}
+
+.hairline-border-dark {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Trendy Marquee Smooth Infinite Loop */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.animate-marquee-slow {
+  display: flex;
+  width: max-content;
+  animation: marquee 50s linear infinite;
+}
+
+.text-outline-transparent {
+  color: rgba(245, 243, 238, 0.78);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.12);
+  text-stroke: 1px rgba(255, 255, 255, 0.12);
+}
+
+.text-outline-transparent:hover {
+  color: rgba(169, 216, 74, 0.9);
+  -webkit-text-stroke: 1px rgba(169, 216, 74, 0.2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .animate-marquee,
+  .animate-marquee-slow {
+    animation: none !important;
+    transform: none !important;
+  }
+}
