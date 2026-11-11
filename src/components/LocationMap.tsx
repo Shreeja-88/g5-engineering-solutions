@@ -24,16 +24,6 @@ export const LocationMap: React.FC = () => {
         hour12: true
       });
       setCurrentTime(istString);
-
-      // Determine shift based on IST hour (0-23)
-      const istHours = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' })).getHours();
-      if (istHours >= 6 && istHours < 14) {
-        setActiveShift({ name: 'Shift 01 · Morning Shift', target: 'North American Coordination & Detailing' });
-      } else if (istHours >= 14 && istHours < 22) {
-        setActiveShift({ name: 'Shift 02 · Evening Shift', target: 'UK, Europe & Middle East Active Detailing' });
-      } else {
-        setActiveShift({ name: 'Shift 03 · Night Shift', target: 'Continuous Model QC, Clash Checks & NC Output' });
-      }
     };
 
     updateTime();
@@ -262,7 +252,7 @@ export const LocationMap: React.FC = () => {
                   {/* Interactive Embedded Small Map */}
                   <div className="relative flex-1 w-full min-h-[290px] bg-[#FAF9F6]">
                     <iframe
-                      title="G5 Engineering Solutions Mysore Studio Map"
+                      title="G5 Engineering Solutions Pvt. Ltd. Mysore Studio Map"
                       src="https://maps.google.com/maps?q=12.3375,76.5947&z=15&output=embed"
                       width="100%"
                       height="100%"
@@ -342,7 +332,7 @@ export const LocationMap: React.FC = () => {
           {activeTab === 'embed' && (
             <div className="relative w-full h-[520px] bg-[#FAF9F6]">
               <iframe
-                title="G5 Engineering Solutions Mysore Location"
+                title="G5 Engineering Solutions Pvt. Ltd. Mysore Location"
                 src="https://maps.google.com/maps?q=12.3375,76.5947&z=15&output=embed"
                 width="100%"
                 height="100%"

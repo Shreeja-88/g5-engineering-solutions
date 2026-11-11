@@ -20,7 +20,7 @@ export const StandardsSection: React.FC = () => {
             <span className="italic text-[#345B4B]">Guided by standards.</span>
           </h2>
           <p className="mt-4 text-sm sm:text-base text-[#77766F] leading-relaxed">
-            Our engineers detail in strict compliance with international structural codes and fabricator standards across North America, the UK, the Middle East, India, and Africa.
+            Our engineers detail in alignment with international industry standards and fabricator standards across North America, the UK, the Middle East, India, and Africa.
           </p>
         </div>
 
@@ -61,11 +61,11 @@ export const StandardsSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Column: International Codes & Standards */}
+          {/* Right Column: International Standards */}
           <div className="lg:col-span-7 space-y-6">
             <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-[#222522] font-semibold pb-3 border-b border-[#77766F]/20">
               <Shield className="w-4 h-4 text-[#345B4B]" />
-              <span>International Codes & Specifications</span>
+              <span>International Standards</span>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -92,7 +92,7 @@ export const StandardsSection: React.FC = () => {
             {/* Structures Detailed Strip */}
             <div className="pt-6 border-t border-[#77766F]/20">
               <div className="text-xs font-mono uppercase tracking-wider text-[#77766F] mb-3">
-                Structures Detailed by G5 Engineering
+                Structures Detailed by G5 Engineering Solutions Pvt. Ltd.
               </div>
               <div className="flex flex-wrap gap-2">
                 {structuresDetailed.map((type) => (

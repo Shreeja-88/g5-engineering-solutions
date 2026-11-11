@@ -11,7 +11,7 @@ export const projectsData: Project[] = [
     location: 'Confidential Global Site',
     schedule: 'Fast-Track Phased Execution',
     tonnage: '1,200+ Tons',
-    codeStandard: 'AISC / AWS D1.1',
+    codeStandard: 'AISC / AWS',
     scope: 'Complete 3D Tekla Modeling, Structural Steel Detailing, Chutes & Equipment Supports, Part & Assembly Drawings',
     criticalChallenge: 'Complex multi-level structural steel system designed around specialized material-handling and mineral-processing equipment coordinated in a highly congested 3D environment with tight tolerances.',
     description: 'A completed flagship gold processing plant detailing project. The facility incorporates massive structural framing engineered around complex mechanical processing equipment including heavy vibratory chutes, feed splitter boxes, trommel screens, and discharge hoppers.',
@@ -59,7 +59,7 @@ export const projectsData: Project[] = [
     location: 'El Paso, Texas 79901, USA',
     schedule: '1.5 Weeks',
     tonnage: 'Custom Tower Framing',
-    codeStandard: 'AISC 360',
+    codeStandard: 'AISC',
     scope: 'Structural Steel Detailing, Connection Geometry, Erection Modeling',
     criticalChallenge: 'Highly tapered tower framework with complex skewed columns and compound sloped diagonal bracing members intersecting at multi-planar spatial nodes.',
     description: 'Detailed two towering architectural sign pylons serving as the prominent civic beacon in downtown El Paso. The dynamic geometric profile required millimeter-accurate detailing of skewed plates, column splices, and stiffened base plates over deep concrete caissons.',
@@ -77,7 +77,7 @@ export const projectsData: Project[] = [
     ],
     metrics: [
       { label: 'Project Schedule', value: '1.5 Weeks' },
-      { label: 'Code Compliance', value: 'AISC 360' },
+      { label: 'Code Compliance', value: 'AISC' },
       { label: 'Geometry', value: 'Compound Skew' },
       { label: 'On-Time Status', value: '100% On-Time' }
     ],
@@ -100,7 +100,7 @@ export const projectsData: Project[] = [
     location: 'Zaragoza Rd, El Paso, TX 79936, USA',
     schedule: '2 Weeks',
     tonnage: '4 Canopy Structures + Railings',
-    codeStandard: 'AISC / AWS D1.1',
+    codeStandard: 'AISC / AWS',
     scope: 'Structural steel detailing of 4 curved canopy structures and perimeter architectural railings',
     criticalChallenge: 'Compound-curved structural tube rafters supported by central built-up tapered tree columns, requiring precision bending coordinates and weld seam details.',
     description: 'Comprehensive structural detailing for four distinctive sports park shade canopies. The signature tree-branching structural column splays outward to carry sweeping radiused purlins and canopy decking in extreme wind load conditions.',
@@ -182,7 +182,7 @@ export const projectsData: Project[] = [
     location: '205 3rd Ave, Delia, Alberta, Canada',
     schedule: '3 Weeks',
     tonnage: '160 Tons',
-    codeStandard: 'CISC (Canadian Institute of Steel Construction)',
+    codeStandard: 'CISC',
     scope: 'Complete Structural Steel Detailing, Joists, Deck, Skewed Framing & Misc. Steels',
     criticalChallenge: 'Skewed and sloped roof members requiring close coordination with open-web steel joists, load-bearing masonry walls, and architectural clerestory glazing.',
     description: 'Detailed structural framing for the replacement K-12 school in Delia, Alberta. The project adhered strictly to Canadian Institute of Steel Construction (CISC) standards, incorporating gymnasium high-bay framing, classroom wings, and administrative spaces.',
@@ -224,7 +224,7 @@ export const projectsData: Project[] = [
     location: 'Alexandria, LA 71301, USA',
     schedule: '2 Weeks',
     tonnage: 'Architectural Arch Tube Frame',
-    codeStandard: 'AISC 360 / AWS',
+    codeStandard: 'AISC / AWS',
     scope: 'Structural Steel Detailing, Curved Geometry Calculations, Deck Interface Coordination',
     criticalChallenge: 'Multi-segmented radial tube steels forming concentric parabolic arches with compound purlin bevels and tensile membrane/deck interface connections.',
     description: 'An iconic open-air riverfront performance venue canopy in Alexandria, Louisiana. The structure consists of multiple segmented concentric curved steel pipe arches creating an acoustic shell over the amphitheater stage.',
@@ -243,7 +243,7 @@ export const projectsData: Project[] = [
     metrics: [
       { label: 'Schedule', value: '2 Weeks' },
       { label: 'Geometry', value: 'Radial Segmented Arch' },
-      { label: 'Code', value: 'AISC 360' },
+      { label: 'Code', value: 'AISC' },
       { label: 'Location', value: 'Alexandria, LA' }
     ],
     images: {
@@ -265,7 +265,7 @@ export const projectsData: Project[] = [
     location: '255 State Street, Boston, MA 02109, USA',
     schedule: '3 Weeks',
     tonnage: '275 Tons',
-    codeStandard: 'AISC / AWS Marine Standards',
+    codeStandard: 'AISC / AWS / Marine Standards',
     scope: 'Structural Steel Detailing, Pile Caps, Deck Framing, Gangways & Guardrails',
     criticalChallenge: 'Marine environment detailing requiring heavy galvanized corrosion-resistant connection hardware, pile collar attachments, and tight tidal elevation constraints.',
     description: 'Structural detailing for the iconic Commonwealth Pier revitalisation along Boston Harbor. Includes deep pile cap collars, heavy platform stringers, timber-deck support steel, and modular pedestrian gangway spans.',
@@ -306,7 +306,7 @@ export const projectsData: Project[] = [
     location: 'Alberta Infrastructure, St. Albert School Division, Canada',
     schedule: '1 Week',
     tonnage: '5 Tons Architectural Steel',
-    codeStandard: 'CISC / National Building Code of Canada',
+    codeStandard: 'CISC / Canadian Standards',
     scope: 'Parametric Spiral Stair Detailing, Rolled Stringers, Treads & Curved Guardrails',
     criticalChallenge: 'Precision helical stringer unrolling with uniform tread riser ratios, smooth radius handrails, and clean concealed structural welds.',
     description: 'Detailed a showcase curved spiral stair for a civic school facility in St. Albert, Alberta. Required exacting mathematical precision to unroll helical stringer plates and align glass/steel architectural guardrails.',
@@ -347,7 +347,7 @@ export const projectsData: Project[] = [
     location: 'Industrial Complex, India',
     schedule: '2 Weeks',
     tonnage: '160 Tons',
-    codeStandard: 'Indian Standards (IS 800) / AISC',
+    codeStandard: 'Indian Standards / AISC',
     scope: 'Connection Design & Complete Structural Steel Detailing',
     criticalChallenge: 'Over 17,000 distinct structural elements. Optimized connection design for lower member profiles to minimize steel tonnage while accommodating spliced long-span roof trusses.',
     description: 'Turnkey structural detailing and connection design calculations for the primary administrative and engineering control facility of a major thermal power project. Heavy focus on steel weight optimization and constructability.',
@@ -367,7 +367,7 @@ export const projectsData: Project[] = [
       { label: 'Elements', value: '17,000+ Items' },
       { label: 'Steel Tonnage', value: '160 Tons' },
       { label: 'Schedule', value: '2 Weeks' },
-      { label: 'Standard', value: 'IS 800 / AISC' }
+      { label: 'Standard', value: 'Indian Standards / AISC' }
     ],
     images: {
       hero: '/assets/projects/power_plant_office_hero.png',
@@ -388,7 +388,7 @@ export const projectsData: Project[] = [
     location: 'Industrial Complex, India',
     schedule: '2 Weeks',
     tonnage: '186 Tons',
-    codeStandard: 'IS 800 / AISC',
+    codeStandard: 'Indian Standards / AISC',
     scope: 'Connection Design & Complete Structural Steel Detailing',
     criticalChallenge: 'Consisted of more than 12,000 elements. Engineered connection design for curved and spliced bowstring trusses to maintain high internal clearance while keeping tonnage minimal.',
     description: 'Detailed a large-span industrial equipment store and warehouse featuring sweeping curved roof trusses and overhead crane runways. Optimized profile selections significantly reduced steel raw material costs.',
@@ -435,7 +435,7 @@ export const projectsData: Project[] = [
     description: 'Designed and detailed a multi-flight industrial access tower for a chlorine dioxide chemical treatment facility in the Middle East. Prioritized worker safety, clear headroom, and simple field bolt-up.',
     detailingApproach: [
       'Modeled stringers, platform landings, kick plates, and welded pipe guardrails.',
-      'Ensured full compliance with OSHA safety standards for stair angles and handrail heights.',
+      'Ensured compliance with applicable OSHA safety standards.',
       'Integrated galvanized bar grating layouts with accurate cutouts around piping penetrations.',
       'Delivered complete fabrication package in just 3.5 business days.'
     ],

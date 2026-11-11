@@ -101,7 +101,7 @@ export const ServicesSection: React.FC = () => {
                     />
                   </div>
                   <div className="p-3 bg-white/95 border-t border-[#77766F]/15 flex items-center justify-between text-[11px] font-mono text-[#77766F]">
-                    <span>G5 ENGINEERING DELIVERABLE</span>
+                    <span>G5 ENGINEERING SOLUTIONS PVT. LTD. DELIVERABLE</span>
                     <span className="text-[#345B4B] font-medium">TEKLA / SDS-2</span>
                   </div>
                 </div>

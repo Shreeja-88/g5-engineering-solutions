@@ -17,7 +17,7 @@ export const AboutPage: React.FC = () => {
         <div className="max-w-3xl mb-16">
           <div className="flex items-center gap-3 mb-3">
             <span className="font-mono text-xs text-[#345B4B] font-semibold tracking-widest uppercase">
-              ABOUT G5 ENGINEERING
+              ABOUT G5 ENGINEERING SOLUTIONS PVT. LTD.
             </span>
             <span className="h-px w-12 bg-[#77766F]/30" />
           </div>
@@ -39,7 +39,7 @@ export const AboutPage: React.FC = () => {
               Helping our clients focus on what they do best.
             </h2>
             <p className="text-base text-[#222522]/90 leading-relaxed">
-              Established in 2019 in Mysore, India, G5 Engineering was founded on a simple conviction: when engineers have a direct personal and proprietary stake in the firm, drawing quality transforms from a routine checklist into an uncompromising craft.
+              Established in 2019 in Mysore, India, G5 Engineering Solutions Pvt. Ltd. was founded on a simple conviction: when engineers have a direct personal and proprietary stake in the firm, drawing quality transforms from a routine checklist into an uncompromising craft.
             </p>
             <p className="text-sm text-[#77766F] leading-relaxed">
               Today, our team of over 70 structural detailers, connection modelers, and check engineers operates around the clock across three rotational shifts. We function not merely as an outsourced drafting contractor, but as a seamlessly integrated remote engineering office for steel fabricators, general contractors, and detailing firms worldwide.
@@ -78,7 +78,7 @@ export const AboutPage: React.FC = () => {
                 “{companyProfile.teamQuote}”
               </p>
               <div className="text-xs font-mono uppercase text-[#77766F] mt-2">
-                — G5 Engineering Internal Standard
+                — G5 Engineering Solutions Pvt. Ltd. Internal Standard
               </div>
             </div>
 
@@ -90,7 +90,7 @@ export const AboutPage: React.FC = () => {
               <div className="flex items-center justify-between pb-4 border-b border-[#77766F]/15">
                 <img
                   src="/assets/g5_logo_transparent.png"
-                  alt="G5 Engineering Solutions"
+                  alt="G5 Engineering Solutions Pvt. Ltd."
                   className="h-14 w-auto object-contain"
                 />
                 <span className="font-mono text-xs text-[#345B4B] uppercase tracking-wider font-semibold">
@@ -163,23 +163,6 @@ export const AboutPage: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6 border-t border-white/10 text-xs">
-            <div>
-              <div className="font-mono text-[#8DC63F] uppercase mb-1 font-semibold">Shift 01 · Morning</div>
-              <div className="text-white font-medium mb-1">North American Coordination & Detailing</div>
-              <p className="text-[#77766F] leading-snug">Real-time sync with US Eastern & Pacific standard hours.</p>
-            </div>
-            <div>
-              <div className="font-mono text-[#8DC63F] uppercase mb-1 font-semibold">Shift 02 · Evening</div>
-              <div className="text-white font-medium mb-1">UK & Middle East Alignment</div>
-              <p className="text-[#77766F] leading-snug">Direct overlap with European consultants and Middle East sites.</p>
-            </div>
-            <div>
-              <div className="font-mono text-[#8DC63F] uppercase mb-1 font-semibold">Shift 03 · Night</div>
-              <div className="text-white font-medium mb-1">Continuous QC & Clash Resolution</div>
-              <p className="text-[#77766F] leading-snug">Deep verification and NC output generation without interruptions.</p>
-            </div>
-          </div>
         </div>
 
       </div>

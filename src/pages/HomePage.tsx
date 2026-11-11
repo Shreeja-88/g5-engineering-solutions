@@ -46,7 +46,7 @@ export const HomePage: React.FC = () => {
       {/* SECTION 08 — TECHNOLOGY & STANDARDS */}
       <StandardsSection />
 
-      {/* SECTION 09 — WHY G5 ENGINEERING */}
+      {/* SECTION 09 — WHY G5 ENGINEERING SOLUTIONS PVT. LTD. */}
       <WhyG5Section />
 
       {/* INTERACTIVE LOCATION MAP (MYSORE STUDIO & GLOBAL CONNECTIVITY) */}

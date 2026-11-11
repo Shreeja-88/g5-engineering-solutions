@@ -2,7 +2,7 @@ import { ServiceItem, MetricStat, ProcessStep } from '../types';
 
 export const companyProfile = {
   name: 'G5 Engineering Solutions Pvt. Ltd.',
-  shortName: 'G5 Engineering',
+  shortName: 'G5 Engineering Solutions Pvt. Ltd.',
   tagline: 'Precision that builds possibilities.',
   motto: 'Serve for quality',
   foundedYear: 2019,
@@ -18,7 +18,7 @@ export const companyProfile = {
   contact: {
     globalPhone: '+1 213 402 0495',
     indiaPhone: '+91 89702 00082',
-    email: 'anil@g5engineerings.com',
+    email: 'anil@g5engineering.com',
     website: 'www.g5engineerings.com'
   },
   mission: 'To provide engineering solutions and defect-free shop drawings, working as an extended team so our clients can focus on building relationships and managing their business.',
@@ -71,7 +71,7 @@ export const servicesData: ServiceItem[] = [
       'Specialized concealment tower and architectural steel detailing'
     ],
     image: '/assets/projects/g5_structural_complex_3d.png',
-    standards: ['AISC', 'CISC', 'IS 800', 'BS 5950']
+    standards: ['AISC', 'CISC', 'Indian Standards', 'British & European Standards']
   },
   {
     id: 'connection-design-calculation',
@@ -88,7 +88,7 @@ export const servicesData: ServiceItem[] = [
       'Standardized connection libraries tailored to fabricator preferences'
     ],
     image: '/assets/projects/power_plant_store_connection.png',
-    standards: ['AISC 360', 'AWS D1.1', 'NISD', 'IS 800']
+    standards: ['AISC', 'AWS', 'NISD', 'Indian Standards']
   },
   {
     id: 'material-take-off',
@@ -105,7 +105,7 @@ export const servicesData: ServiceItem[] = [
       'Bolt and fastener schedules with hardware specifications'
     ],
     image: '/assets/projects/power_plant_store_truss.png',
-    standards: ['ASTM', 'AISC', 'CISC', 'IS']
+    standards: ['ASTM', 'AISC', 'CISC', 'Indian Standards']
   }
 ];
 
@@ -184,11 +184,11 @@ export const whyChooseG5 = [
 export const standardsAndCodes = [
   { code: 'AISC', title: 'American Institute of Steel Construction', region: 'United States' },
   { code: 'NISD', title: 'National Information Society of Detailing', region: 'North America' },
-  { code: 'AWS D1.1', title: 'American Welding Society Structural Code', region: 'International' },
+  { code: 'AWS', title: 'American Welding Society', region: 'International' },
   { code: 'OSHA', title: 'Occupational Safety and Health Administration', region: 'Safety Standards' },
   { code: 'CISC', title: 'Canadian Institute of Steel Construction', region: 'Canada' },
-  { code: 'IS 800', title: 'Bureau of Indian Standards', region: 'India' },
-  { code: 'BS 5950 / EN', title: 'British & European Structural Standards', region: 'UK & Europe' },
+  { code: 'Indian Standards', title: 'Bureau of Indian Standards', region: 'India' },
+  { code: 'British & European Standards', title: 'British & European Structural Standards', region: 'UK & Europe' },
   { code: 'SANS', title: 'South African National Standards', region: 'South Africa' }
 ];
 

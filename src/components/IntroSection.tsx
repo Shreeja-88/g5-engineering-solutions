@@ -31,7 +31,7 @@ export const IntroSection: React.FC = () => {
                 “The strength of our team is each individual member. The strength of each member is our team.”
               </p>
               <div className="text-xs font-mono uppercase tracking-wider text-[#77766F] mt-2">
-                — G5 Engineering Guiding Ethos
+                — G5 Engineering Solutions Pvt. Ltd. Guiding Ethos
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ export const IntroSection: React.FC = () => {
           {/* Right Column: Narrative & Values */}
           <div className="lg:col-span-7 space-y-6">
             <p className="font-sans text-base sm:text-lg text-[#222522] leading-relaxed font-normal">
-              G5 Engineering is an <strong className="font-semibold text-[#345B4B]">employee-owned</strong> structural detailing company delivering advanced engineering services and solutions through innovative practices, specialized expertise and efficient project execution.
+              G5 Engineering Solutions Pvt. Ltd. is an <strong className="font-semibold text-[#345B4B]">employee-owned</strong> structural detailing company delivering advanced engineering services and solutions through innovative practices, specialized expertise and efficient project execution.
             </p>
             <p className="font-sans text-base text-[#77766F] leading-relaxed">
               Since 2019, our team has worked with engineering consultants, steel fabricators, detailing companies and erection firms, supporting complex industrial, commercial and civic infrastructure projects across the United States, Canada, the United Kingdom, the Middle East and India.
@@ -95,7 +95,7 @@ export const IntroSection: React.FC = () => {
           <div className="aspect-21/9 sm:aspect-24/9 w-full overflow-hidden bg-[#222522] flex items-center justify-center p-4">
             <img
               src="/assets/projects/g5_structural_complex_3d.png"
-              alt="G5 Engineering high-complexity structural steel 3D model"
+              alt="G5 Engineering Solutions Pvt. Ltd. high-complexity structural steel 3D model"
               className="max-h-full max-w-full object-contain transition-transform duration-700 ease-out group-hover:scale-105"
               loading="lazy"
               decoding="async"

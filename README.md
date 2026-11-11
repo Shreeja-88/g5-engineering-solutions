@@ -1,8 +1,8 @@
-# G5 Engineering Solutions
+# G5 Engineering Solutions Pvt. Ltd.
 
 ### Engineering Excellence. Precision in Every Detail.
 
-A modern, responsive corporate website developed for **G5 Engineering Solutions**, a steel detailing and engineering company.
+A modern, responsive corporate website developed for **G5 Engineering Solutions Pvt. Ltd.**, a steel detailing and engineering company.
 
 The website provides a professional digital presence for the company, showcasing its engineering capabilities, services, projects, and business information through an elegant and interactive user experience.
 
@@ -12,7 +12,7 @@ The website provides a professional digital presence for the company, showcasing
 
 ## Overview
 
-G5 Engineering Solutions is a frontend web development project created to establish a modern digital presence for an engineering-focused business.
+G5 Engineering Solutions Pvt. Ltd. is a frontend web development project created to establish a modern digital presence for an engineering-focused business.
 
 The website combines a clean architectural design approach with responsive layouts, refined typography, interactive components, and smooth animations to deliver a professional browsing experience across devices.
 
@@ -55,7 +55,7 @@ Key development considerations include:
 
 | Detail | Description |
 |---|---|
-| Project | G5 Engineering Solutions Website |
+| Project | G5 Engineering Solutions Pvt. Ltd. Website |
 | Category | Corporate Website |
 | Development | Frontend Web Development |
 | Status | Live |
@@ -64,12 +64,12 @@ Key development considerations include:
 
 ## Acknowledgement
 
-Developed for **G5 Engineering Solutions** to establish a professional online presence and showcase its engineering services and capabilities.
+Developed for **G5 Engineering Solutions Pvt. Ltd.** to establish a professional online presence and showcase its engineering services and capabilities.
 
 ---
 
 <p align="center">
-  <b>G5 ENGINEERING SOLUTIONS</b>
+  <b>G5 ENGINEERING SOLUTIONS PVT. LTD.</b>
   <br/>
   Engineering Excellence. Precision in Every Detail.
   <br/><br/>

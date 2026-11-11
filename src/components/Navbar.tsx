@@ -80,7 +80,7 @@ export const Navbar: React.FC = () => {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between gap-8">
-          {/* Zone 1: G5 Engineering Logo */}
+          {/* Zone 1: G5 Engineering Solutions Pvt. Ltd. Logo */}
           <Link
             to="/"
             className="group flex items-center gap-2 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#345B4B]"

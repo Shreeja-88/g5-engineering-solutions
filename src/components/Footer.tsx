@@ -134,7 +134,7 @@ export const Footer: React.FC = () => {
             {[1, 2, 3, 4].map((i) => (
               <div key={i} className="flex items-center gap-10 shrink-0">
                 <span className="font-display font-black text-5xl sm:text-7xl md:text-8xl lg:text-[110px] tracking-tight text-outline-transparent uppercase leading-none transition-colors duration-500">
-                  G5 ENGINEERING SOLUTIONS PVT LTD
+                  G5 ENGINEERING SOLUTIONS PVT. LTD.
                 </span>
                 <span className="w-3.5 h-3.5 rounded-full border border-[#8DC63F]/40 bg-[#8DC63F]/10 shrink-0" />
               </div>
@@ -148,7 +148,7 @@ export const Footer: React.FC = () => {
             © {currentYear} G5 Engineering Solutions Pvt. Ltd. All rights reserved.
           </div>
           <div className="flex items-center gap-4 text-[11px]">
-            <span>AISC · CISC · NISD · AWS · IS 800</span>
+            <span>AISC · CISC · NISD · AWS · Indian Standards</span>
             <span className="text-white/20">|</span>
             <span>EMPLOYEE-OWNED ENTERPRISE</span>
           </div>

@@ -50,11 +50,11 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isPage = false }
     return () => context.revert();
   }, []);
 
-  const emailSubject = encodeURIComponent('Project enquiry | G5 Engineering');
+  const emailSubject = encodeURIComponent('Project enquiry | G5 Engineering Solutions Pvt. Ltd.');
   const emailBody = encodeURIComponent(
-    'Hello G5 Engineering team,\n\nI would like to discuss a project with your team.\n\nProject overview:\n\nRegards,\n'
+    'Hello G5 Engineering Solutions Pvt. Ltd. team,\n\nI would like to discuss a project with your team.\n\nProject overview:\n\nRegards,\n'
   );
-  const emailHref = `mailto:${companyProfile.contact.email}?subject=${emailSubject}&body=${emailBody}`;
+  const emailHref = `mailto:varun@g5engineering.com?subject=${emailSubject}&body=${emailBody}`;
   const address = `${companyProfile.address.street}, ${companyProfile.address.area}, ${companyProfile.address.city} ${companyProfile.address.pincode}, ${companyProfile.address.state}, ${companyProfile.address.country}`;
 
   return (
@@ -81,7 +81,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isPage = false }
           <div className="flex items-center gap-3">
             <span className="h-px w-8 bg-[#A9D84A]" />
             <span className="font-mono text-[11px] font-medium uppercase tracking-[0.18em] text-[#A9D84A]">
-              G5 Engineering · Mysore, India
+              G5 Engineering Solutions Pvt. Ltd. · Mysore, India
             </span>
           </div>
           <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-white/60">
@@ -111,7 +111,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isPage = false }
             <p className="mt-8 font-display text-4xl font-light tracking-tight text-white/90">Mysore</p>
             <p className="mt-1 font-display text-2xl font-light tracking-tight text-white/55">Karnataka · India</p>
             <span className="absolute bottom-0 right-0 font-mono text-[10px] uppercase tracking-widest text-white/50">
-              G5 ENGINEERING
+              G5 ENGINEERING SOLUTIONS PVT. LTD.
             </span>
           </div>
         </div>

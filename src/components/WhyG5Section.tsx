@@ -10,7 +10,7 @@ export const WhyG5Section: React.FC = () => {
         <div className="max-w-3xl mb-16">
           <div className="flex items-center gap-3 mb-3">
             <span className="font-mono text-xs text-[#345B4B] font-semibold tracking-widest uppercase">
-              WHY G5 ENGINEERING
+              WHY G5 ENGINEERING SOLUTIONS PVT. LTD.
             </span>
             <span className="h-px w-12 bg-[#77766F]/30" />
           </div>

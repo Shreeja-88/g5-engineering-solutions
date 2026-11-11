@@ -28,7 +28,7 @@ export const G5Logo: React.FC<G5LogoProps> = ({
         <div className="flex items-center gap-3 bg-white/95 px-3 py-1.5 rounded-xs border border-white/20 shadow-xs">
           <img
             src="/assets/g5_logo_transparent.png"
-            alt="G5 Engineering Solutions"
+            alt="G5 Engineering Solutions Pvt. Ltd."
             className={`${logoHeight} w-auto object-contain`}
           />
         </div>
@@ -36,7 +36,7 @@ export const G5Logo: React.FC<G5LogoProps> = ({
         /* Light Theme presentation: Direct clean official logo */
         <img
           src="/assets/g5_logo_transparent.png"
-          alt="G5 Engineering Solutions"
+          alt="G5 Engineering Solutions Pvt. Ltd."
           className={`${logoHeight} w-auto object-contain drop-shadow-2xs`}
         />
       )}

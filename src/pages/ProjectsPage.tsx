@@ -80,7 +80,7 @@ export const ProjectsPage: React.FC = () => {
             Structures tell our story.
           </h1>
           <p className="mt-4 text-base sm:text-lg text-[#77766F] leading-relaxed">
-            Explore authentic structural steel detailing case studies executed by G5 Engineering for global fabrication and engineering partners.
+            Explore authentic structural steel detailing case studies executed by G5 Engineering Solutions Pvt. Ltd. for global fabrication and engineering partners.
           </p>
         </div>
 
