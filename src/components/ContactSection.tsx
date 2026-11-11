@@ -54,7 +54,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isPage = false }
   const emailBody = encodeURIComponent(
     'Hello G5 Engineering Solutions Pvt. Ltd. team,\n\nI would like to discuss a project with your team.\n\nProject overview:\n\nRegards,\n'
   );
-  const emailHref = `mailto:varun@g5engineering.com?subject=${emailSubject}&body=${emailBody}`;
+  const emailHref = `mailto:varun@g5engineerings.com?subject=${emailSubject}&body=${emailBody}`;
   const address = `${companyProfile.address.street}, ${companyProfile.address.area}, ${companyProfile.address.city} ${companyProfile.address.pincode}, ${companyProfile.address.state}, ${companyProfile.address.country}`;
 
   return (

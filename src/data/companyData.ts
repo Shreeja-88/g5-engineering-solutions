@@ -18,7 +18,7 @@ export const companyProfile = {
   contact: {
     globalPhone: '+1 213 402 0495',
     indiaPhone: '+91 89702 00082',
-    email: 'anil@g5engineering.com',
+    email: 'anil@g5engineerings.com',
     website: 'www.g5engineerings.com'
   },
   mission: 'To provide engineering solutions and defect-free shop drawings, working as an extended team so our clients can focus on building relationships and managing their business.',
